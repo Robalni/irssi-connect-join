@@ -23,4 +23,4 @@ config file.
 
 Move connect_join.pl to your `.irssi/scripts` directory.  If you want
 it to start automatically, then create a link to it in
-`.irssri/scripts/autostart` .
+`.irssri/scripts/autorun` .
