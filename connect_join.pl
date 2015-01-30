@@ -26,6 +26,7 @@ sub connect_failed {
     }
     $join_on_connect{$address} = 1;
     Irssi::print("Trying server $address and channels $channels");
+    Irssi::command("rmreconns");
     Irssi::command("connect $address");
 }
 

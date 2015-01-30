@@ -19,6 +19,11 @@ next time you connect to that server without specifying any channel,
 you will not automatically join anything other than what's in your
 config file.
 
+This script currently removes all reconnections before it joins the
+channels.  Otherwise it would keep connecting to the servers forever
+because irssi fails to connect to Server:#channels before this script
+takes over.
+
 ## Install
 
 Move connect_join.pl to your `.irssi/scripts` directory.  If you want
