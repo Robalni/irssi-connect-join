@@ -1,7 +1,7 @@
 # irssi-connect-join
 
-This script lets you automatically join a channel when you connect to
-a server.  You can use the connect command like this:
+This script lets you automatically join one or more channels when you
+connect to a server.  You can use the connect command like this:
 
 ```
 /connect Server:#channel1,#channel2,#channel3
